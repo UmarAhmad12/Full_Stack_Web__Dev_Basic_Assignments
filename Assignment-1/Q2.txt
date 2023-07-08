@@ -1,0 +1,38 @@
+Q.2 Explain Semantic tags in html? And why do we need it?
+
+Ans -> Semantic tags in HTML are elements that carry meaning or convey the purpose and 
+structure of the content within the tags. These tags provide a way to describe the different 
+sections and elements of a web page in a more meaningful and understandable manner.
+
+Some examples of semantic tags introduced in HTML5 include `<header>`, `<nav>`, `<section>`, 
+`<article>`, `<aside>`, `<footer>`, `<main>`, `<figure>`, `<figcaption>`, and many more. 
+These tags help to define the purpose and role of different parts of a web page.
+
+Here are a few reasons why semantic tags are important:
+
+1. **Accessibility:** Semantic tags improve accessibility by providing a more descriptive 
+structure to web pages. Screen readers and assistive technologies can better 
+understand the content and provide a more meaningful experience to users with disabilities.
+
+2. **Search Engine Optimization (SEO):** Search engines can better understand the structure 
+and content of a web page when semantic tags are used. This can positively impact 
+search engine rankings and improve the visibility of the page in search results.
+
+3. **Code Readability and Maintainability:** Semantic tags make the HTML code more readable 
+and understandable for developers. By using tags that reflect the purpose of the content, 
+it becomes easier to navigate and maintain the codebase, especially in larger projects.
+
+4. **Separation of Structure and Presentation:** Semantic tags promote a clear separation 
+of structure and presentation in web development. By using semantic tags, you focus on 
+structuring the content, while CSS is used for presentation and styling. 
+This separation enhances code modularity and makes it easier to update the 
+visual aspects of the website.
+
+5. **Future-proofing:** Semantic tags provide a standardized way of representing content. 
+This allows for easier adoption of new technologies and future enhancements to HTML. 
+It ensures that your web pages will continue to be interpreted correctly by 
+modern browsers and devices.
+
+Overall, semantic tags enhance the semantics and meaning of HTML documents, improving 
+accessibility, search engine optimization, code maintainability, and future compatibility. 
+They contribute to a better web experience for both humans and machines.

@@ -1,0 +1,5 @@
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+Ans -> <!DOCTYPE html> is not an HTML tag but a document type declaration used to 
+indicate that the HTML document should be treated as HTML5 and to ensure consistent 
+rendering across browsers.

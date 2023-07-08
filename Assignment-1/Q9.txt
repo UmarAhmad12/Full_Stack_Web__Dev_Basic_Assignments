@@ -1,0 +1,50 @@
+Q.9 What’s the difference between html tag and attribute and give example of some 
+global attributes?
+
+Ans -> In HTML, there are two main concepts: tags and attributes.
+
+1. **HTML Tags**:
+   HTML tags are the building blocks of an HTML document. They define the structure and 
+   content of a webpage. Tags are represented by angle brackets (`<` and `>`) and come in 
+   pairs - an opening tag and a closing tag. The opening tag contains the name of the element, 
+   while the closing tag has the same name but with a forward slash before it (`</`). 
+   The content between the opening and closing tags is the content of the element.
+
+   Example of an HTML tag:
+   
+   <p>This is a paragraph tag.</p>
+   
+
+2. **HTML Attributes**:
+   HTML attributes are used to provide additional information or settings to HTML elements. 
+   They are applied within the opening tag and provide extra properties to the element. 
+   Attributes consist of a name and a value, separated by an equal sign (`=`). 
+   The value is usually enclosed in double quotes. Attributes can be used to control the 
+   appearance, behavior, or functionality of an element.
+
+   Example of an HTML attribute:
+   
+   <img src="example.jpg" alt="Example Image">
+   
+
+   In this example, the `<img>` tag has two attributes: `src` and `alt`. The `src` attribute 
+   specifies the source URL of the image to display, while the `alt` attribute provides 
+   alternative text for the image, which is important for accessibility and SEO.
+
+**Global Attributes**:
+Global attributes are attributes that can be applied to most HTML elements. 
+They are not specific to any particular tag and can be used across different elements.
+
+Some examples of global attributes are:
+- `id`: Specifies a unique identifier for an element.
+- `class`: Assigns one or more class names to an element for CSS styling or JavaScript manipulation.
+- `style`: Applies inline CSS styles directly to the element.
+- `title`: Provides additional information about the element (usually displayed as a tooltip).
+- `lang`: Specifies the language of the content within the element.
+- `data-*`: Allows custom data attributes to be added for JavaScript to access and manipulate.
+- `tabindex`: Specifies the order of focus for keyboard navigation.
+- `aria-*`: Provides accessibility information for screen readers and other assistive technologies.
+
+In short, HTML tags define the structure and content of a webpage, while HTML attributes 
+provide additional information or settings to elements. Global attributes are attributes
+ that can be applied to many HTML elements and are not specific to any particular tag.

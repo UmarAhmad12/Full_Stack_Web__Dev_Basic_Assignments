@@ -1,0 +1,6 @@
+Q.3 Differentiate between HTML Tags and Elements?
+
+Ans -> HTML tags are the individual markers used to define the structure of an HTML document, 
+while HTML elements are complete units consisting of opening and closing tags and the 
+content within them. Elements are formed by combining tags and represent 
+specific parts or structures within an HTML document.
