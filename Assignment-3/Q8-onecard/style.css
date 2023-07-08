@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Manrope:wght@400;500;600;700;800&family=Playfair:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+/*-----------------*/
+/* Navbar styling for screen size 992px or bigger */
+/*----------------*/
+
+.navbar {
+  height: 4.5em;
+  width: 100%;
+  background: rgb(58, 55, 55);
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 5vw;
+}
+
+.logo img {
+  width: 100%;
+  object-fit: cover;
+  filter: invert(100%);
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+}
+
+.menu li a {
+  color: white;
+}
+
+/* Navbar apply now button styling down bellow */
+
+.right-nav > button {
+  padding: 1.5vh 1vw;
+  font-size: 0.9em;
+  font-weight: 600;
+  border-radius: 0.5em;
+  border: none;
+  background-color: rgb(7, 151, 207);
+  color: white;
+}
+
+/* Navbar apply now button hover effect down bellow */
+
+.right-nav > button:hover {
+  background-color: rgb(5, 106, 146);
+  cursor: pointer;
+}
+
+.humbugger {
+  display: none;
+}
+
+/*-------------------*/
+/* Navbar Ends here! good bye ): */
+/*------------------*/
+
+/* ---------------------- */
+/* hero section */
+/* --------------------- */
+
+.hero-section {
+  display: flex;
+  padding-inline: 10em;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-side,
+.left-side {
+  flex: 1;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.left-side h3 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.left-side h1 {
+  font-size: 4em;
+  color: #1893f7;
+}
+
+.left-side p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1893f7;
+  margin-bottom: 0.9em;
+}
+
+.left-side .banner {
+  width: 70%;
+  margin-bottom: 0.5em;
+}
+
+.left-side .text {
+  font-size: 1em;
+  font-weight: normal;
+  color: black;
+  width: 70%;
+}
+
+.left-btn {
+  width: 16vw;
+}
+
+.left-btn img {
+  width: 100%;
+}
+
+.right-side video {
+  width: 100%;
+}
+
+/* --------------- */
+/* Section Three */
+/* --------------- */
+
+.section-three {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5em;
+}
+
+.section-three h1 {
+  margin-bottom: 1em;
+  font-size: 4em;
+  background: linear-gradient(
+    to right,
+    rgb(0, 99, 199),
+    rgba(19, 228, 68, 0.89)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: white;
+}
+
+.section-three .text {
+  line-height: 1.5em;
+  font-size: 3em;
+}
+
+/* ----------------- */
+/* Mobile screen sizes for 576px */
+/*--------------------*/
+
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    padding: 0 0.8em;
+  }
+
+  .navbar .logo {
+    width: 4.7em;
+  }
+
+  .menu {
+    display: none;
+    position: relative;
+  }
+
+  .open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .open li a {
+    color: black;
+  }
+
+  .humbugger {
+    display: block;
+    color: white;
+  }
+
+  .right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  /* hero section start for mobile */
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-inline: 2em;
+  }
+
+  .left-side {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .left-side h1 {
+    font-size: 2.5em;
+  }
+
+  .left-side h3 {
+    font-size: 1.2em;
+  }
+
+  .left-side .banner {
+    width: 80%;
+  }
+
+  .left-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .left-btn img {
+    width: 100%;
+  }
+
+  .right-side,
+  .left-side {
+    flex: 1;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .right-side video {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* mobile responsive code for section three */
+
+  .section-three {
+    padding: 3em;
+    background-color: white;
+  }
+
+  .section-three h1 {
+    font-size: 2em;
+    padding-inline: 30%;
+    text-align: center;
+  }
+
+  .section-three .text {
+    font-size: 1.4em;
+    color: black;
+  }
+}
+
+/* tablet view screen size for 768px */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 5em;
+  }
+
+  .navbar .logo {
+    width: 4.7em;
+  }
+  .menu {
+    display: none;
+    position: relative;
+  }
+
+  .open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .open li a {
+    color: black;
+  }
+
+  .humbugger {
+    display: block;
+    color: white;
+  }
+
+  .right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+  /* hero section start for tablet */
+
+  .hero-section {
+    flex-direction: column;
+    padding-inline: 2em;
+  }
+
+  /* .left-side {
+    width: 100%;
+  } */
+
+  .left-side img {
+    width: 100%;
+  }
+
+  .left-btn {
+    width: 50%;
+  }
+
+  .left-btn img {
+    width: 100%;
+  }
+
+  .right-side,
+  .left-side {
+    flex: 1;
+  }
+
+  /* .right-side {
+    width: 33em;
+  } */
+
+  .right-side video {
+    width: 100%;
+  }
+
+  /* mobile responsive code for section three */
+  .section-three {
+    padding: 3em;
+  }
+
+  .section-three h1 {
+    font-size: 2.3em;
+    padding-inline: 20%;
+  }
+
+  .section-three .text {
+    font-size: 1.4em;
+  }
+}

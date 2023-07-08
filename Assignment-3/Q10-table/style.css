@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Manrope:wght@400;500;600;700;800&family=Playfair:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  background-color: black;
+}
+
+#main_table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 95%;
+}
+
+#main_table th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+#main_table td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 12px;
+  color: white;
+}
+
+/* for small screen devices */
+
+@media screen and (max-width: 578px) {
+    #main_table{
+        width: 100%;
+        margin: 20px;
+    }
+
+  #main_table th {
+    padding: 5px;
+  }
+
+  #main_table th:nth-last-child(1) {
+    display: none;
+  }
+
+  #main_table td {
+    padding: 5px;
+  }
+
+  #main_table td:nth-last-child(1) {
+    display: none;
+  }
+}
